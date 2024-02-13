@@ -31,3 +31,7 @@ public void drawBranches(int x,int y, double branchLength, double angle)
    drawBranches(endX2, endY2, branchLength, angle + Math.random() - .5 * 1);
   }
 } 
+public void mousePressed()
+{
+  redraw();
+}
